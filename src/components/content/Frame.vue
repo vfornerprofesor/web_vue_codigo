@@ -13,6 +13,9 @@ export default {
     link: {
       type: String,
       required: true
+    },
+    elementStyles: {
+      type: Array
     }
   },
   data() {
