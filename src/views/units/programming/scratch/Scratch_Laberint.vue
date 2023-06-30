@@ -11,6 +11,20 @@ import List from '@/components/content/List.vue';
 
 
 import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
+import laberint_01 from '@/img/unitats/programacio/scratch/scr-01-laberint-01.png';
+import laberint_02 from '@/img/unitats/programacio/scratch/scr-01-laberint-02.png';
+import laberint_03 from '@/img/unitats/programacio/scratch/scr-01-laberint-03.png';
+import laberint_04 from '@/img/unitats/programacio/scratch/scr-01-laberint-04.png';
+import laberint_05 from '@/img/unitats/programacio/scratch/scr-01-laberint-05.gif';
+import laberint_06 from '@/img/unitats/programacio/scratch/scr-01-laberint-06.png';
+import laberint_07 from '@/img/unitats/programacio/scratch/scr-01-laberint-07.png';
+import laberint_08 from '@/img/unitats/programacio/scratch/scr-01-laberint-08.gif';
+import laberint_09 from '@/img/unitats/programacio/scratch/scr-01-laberint-09.png';
+import laberint_10 from '@/img/unitats/programacio/scratch/scr-01-laberint-10.gif';
+import laberint_11 from '@/img/unitats/programacio/scratch/scr-01-laberint-11.png';
+import laberint_12 from '@/img/unitats/programacio/scratch/scr-01-laberint-12.gif';
+import laberint_13 from '@/img/unitats/programacio/scratch/scr-01-laberint-13.gif';
+import laberint_14 from '@/img/unitats/programacio/scratch/scr-01-laberint-14.gif';
 </script>
 <template>
     <Title title="Laberint" :number=1 />
@@ -24,7 +38,7 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
                     text="En primer lloc, abans de començar hauràs d'obrir [Scratch](https://scratch.mit.edu/) i crear un projecte nou. En fer-ho, carrega la plantilla que trobaràs en el següent [enllaç](https://drive.google.com/file/d/1PaEuF9tjuYbmXW3BkmtPkp60BfFyAAIN/view)" />
             </Column>
             <Column>
-                <Image :imgProp="scratch_laberint"/>
+                <Image :imgProp="scratch_laberint" />
             </Column>
         </Row>
     </Content>
@@ -35,7 +49,7 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
             text="El primer que haurem de fer és fer que el personatge es quede a la posició inicial X i Y de l'escenari. Per fer-ho hem d'utilitzar un bloc *Al presionar bandera verda* (en esdeveniments) que seran les accions que s'executaran quan comencem el joc." />
         <Text
             text="A continuació afegirem el bloc d' *anar a x: __ y: __* i ahí serà on posarem la posició x i y del personatge. Per fer-ho, posa el personatge en la posició inicial i comprova la posició." />
-        <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-01.png" />
+        <Image :imgProp="laberint_01" />
         <Text
             text="Ara farem que es moga quan polsem les *fletxes cap amunt, avall, dreta i esquerra*. Per fer-ho has de buscar l'esdeveniment de *Al presionar una tecla* i de moment, anem a seleccionar cap a *l'esquerra*" />
         <Text
@@ -44,10 +58,10 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
             text="Prova que al pressionar la tecla de la fletxa esquerra es mou cap a l'esquerra i després fes el mateix però per a les altres 3 fletxes que falten, pensant en els graus que has d'aplicar." />
         <Row>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-02.png" />
+                <Image :imgProp="laberint_02" />
             </Column>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-03.png" />
+                <Image :imgProp="laberint_03" />
             </Column>
         </Row>
     </Content>
@@ -66,10 +80,10 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
                     text="En el moment en què estiga tocant el color negre, hauràs de fer que es *moga fins la posició inicial lliscant durant 2s*. Aquesta instrucció la trobaràs en la secció *moviment*" />
             </Column>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-04.png" />
+                <Image :imgProp="laberint_04" />
             </Column>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-05.gif" />
+                <Image :imgProp="laberint_05" />
             </Column>
         </Row>
     </Content>
@@ -80,15 +94,15 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
             text="Els obstacles han d'acabar movent-se per l'escenari però abans anem a canviar-li la disfressa al 2 i al 3." />
         <Text
             text="Per fer-ho has de seleccionar l'Obstacle 2, després la pestanya *Vestits* i per últim el botó de *Tria un vestit*" />
-        <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-06.png" />
+            <Image :imgProp="laberint_06" />
         <Text
             text="Després buscarem *ball* i seleccionarem la blava. Veuràs que s'ha afegit una nova disfressa, així que canvia el tamany i centra-ho al mig." />
         <Row>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-07.png" />
+                <Image :imgProp="laberint_07" />
             </Column>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-08.gif" />
+                <Image :imgProp="laberint_08" />
             </Column>
         </Row>
         <Text text="Fes el mateix amb *l'obstacle 3*" />
@@ -97,9 +111,9 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
         <Text
             text="A continuació haurem de tindre un *per sempre* perquè repetisca tota la estona dos accions: lliscar cap a la posició final i lliscar cap a la posició inicial." />
         <Text text="Ací tens el resultat amb el codi de l'obstacle 1. Fes el mateix amb el 2 i el 3." />
-        <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-09.png" />
+        <Image :imgProp="laberint_09" />
         <Text text="El resultat de que els 3 obstacles es moguen." />
-        <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-10.gif" />
+        <Image :imgProp="laberint_10" />
 
     </Content>
 
@@ -114,12 +128,12 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
                 <Text text="Recorda que el o es troba a la secció *operadors*" />
             </Column>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-11.png" />
+                <Image :imgProp="laberint_11" />
             </Column>
         </Row>
         <Text
             text="Ara fes que quan toque el color roig de la meta el personatge *diga durant 2 segons que HA GUANYAT!!*" />
-        <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-12.gif" />
+            <Image :imgProp="laberint_12" />
     </Content>
 
     <Title title="Millores a realitzar" :number=2 />
@@ -145,16 +159,15 @@ import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
         </List>
         <Row>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-13.gif" />
+                <Image :imgProp="laberint_13" />
             </Column>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/scr-01-laberint-14.gif" />
+                <Image :imgProp="laberint_14" />
             </Column>
         </Row>
-        <Frame link="https://learningapps.org/watch?app=30998038" 
-        :elementStyles="{
+        <Frame link="https://learningapps.org/watch?app=30998038" :elementStyles="{
             width: '100%',
             height: '80vh'
-        }"/>
+        }" />
     </Content>
 </template>
