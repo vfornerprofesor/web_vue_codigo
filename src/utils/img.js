@@ -26,6 +26,9 @@ import ia from '@/img/inteligencia_artificial.jpeg';
 import ia_ferramentes from '@/img/inteligencia_artificial.jpeg';
 import full_calcul from '@/img/google_calcul.png';
 
+//SCRATCH
+import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
+
 export default {
     //CURSOS
     "1eso" : eso1,
@@ -55,5 +58,7 @@ export default {
     "ia_ferramentes" : ia_ferramentes,
     "full_calcul" : full_calcul,
 
+    //SCRATCH
+    "scratch_laberint": scratch_laberint,
 
 };

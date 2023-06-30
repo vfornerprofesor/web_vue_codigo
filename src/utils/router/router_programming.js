@@ -2,15 +2,15 @@
 
 // Define tus nuevas rutas aquí
 var additionalRoutesProgrammingGeneral = [
-      {
+      /*{
         path: '/unitats/programacio/pensament_computacional',
         component: () => import('@/views/units/programming/PensamentComputacional.vue')
-      },
+      },*/
       {
         path: '/unitats/programacio/scratch',
         component: () => import('@/views/units/programming/scratch/Scratch.vue')
       },
-      {
+      /*{
         path: '/unitats/programacio/app_inventor',
         component: () => import('@/views/units/programming/AppInventor.vue')
       },
@@ -57,7 +57,7 @@ var additionalRoutesProgrammingGeneral = [
       {
         path: '/unitats/programacio/full_calcul',
         component: () => import('@/views/units/programming/FullCalcul.vue')
-      },
+      },*/
   // Más rutas...
 ];
 var additionalRoutesProgrammingScratch = [

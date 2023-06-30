@@ -8,7 +8,11 @@ import Unit from '@/components/blocks/Unit.vue';
 import Image from '@/components/content/Image.vue';
 import Button from '@/components/content/Button.vue';
 
-
+import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
+import scratch_flappy_bird from '@/img/unitats/programacio/scratch/flappy_bird.png';
+import scratch_space_invaders from '@/img/unitats/programacio/scratch/space_invaders.png';
+import scratch_pong from '@/img/unitats/programacio/scratch/pong.png';
+ 
 </script>
 <template>
     <Title title="Scratch" :number=1></Title>
@@ -16,22 +20,22 @@ import Button from '@/components/content/Button.vue';
         <Text text="Contingut extret de [Programa Ergo Sum](https://www.programoergosum.es/)."/>
         <Row>
             <Column additionalClass="four_cols text-center">
-                <Image src="/src/img/unitats/programacio/scratch/laberint.png"/>
+                <Image :imgProp="scratch_laberint"/>
                 <br>
                 <Button title="Laberint" link_page_name="scratch_laberint"/>
             </Column>
             <Column additionalClass="four_cols text-center">
-                <Image src="/src/img/unitats/programacio/scratch/flappy_bird.png"/>
+                <Image :imgProp="scratch_flappy_bird"/>
                 <br>
                 <Button title="Flappy Bird" link_page_name="scratch_flappy_bird"/>
             </Column>
             <Column additionalClass="four_cols text-center">
-                <Image src="/src/img/unitats/programacio/scratch/space_invaders.png"/>
+                <Image :imgProp="scratch_space_invaders"/>
                 <br>
                 <Button title="Space Invaders" link_page_name="scratch_space_invaders"/>
             </Column>
             <Column additionalClass="four_cols text-center">
-                <Image src="/src/img/unitats/programacio/scratch/pong.png"/>
+                <Image :imgProp="scratch_pong"/>
                 <br>
                 <Button title="Pong" link_page_name="scratch_pong"/>
             </Column>

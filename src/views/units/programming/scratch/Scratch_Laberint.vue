@@ -8,6 +8,9 @@ import Unit from '@/components/blocks/Unit.vue';
 import Image from '@/components/content/Image.vue';
 import Frame from '@/components/content/Frame.vue';
 import List from '@/components/content/List.vue';
+
+
+import scratch_laberint from '@/img/unitats/programacio/scratch/laberint.png';
 </script>
 <template>
     <Title title="Laberint" :number=1 />
@@ -21,7 +24,7 @@ import List from '@/components/content/List.vue';
                     text="En primer lloc, abans de començar hauràs d'obrir [Scratch](https://scratch.mit.edu/) i crear un projecte nou. En fer-ho, carrega la plantilla que trobaràs en el següent [enllaç](https://drive.google.com/file/d/1PaEuF9tjuYbmXW3BkmtPkp60BfFyAAIN/view)" />
             </Column>
             <Column>
-                <Image src="/src/img/unitats/programacio/scratch/laberint.png" />
+                <Image :imgProp="scratch_laberint"/>
             </Column>
         </Row>
     </Content>

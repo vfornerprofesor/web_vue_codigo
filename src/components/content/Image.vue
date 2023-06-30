@@ -1,14 +1,19 @@
 <template>
     <div class="div_img">
-        <img :src="src" alt="" />
-    </div>
+        <img :src="imgProp" alt="Imagen" />
+
+   </div>
 </template>
 <script>
+import img from '@/utils/img.js';
 export default {
     props: {
-        src: {
+        imgProp: {
             type: String
-        },
+        }
+    },
+    methods: {
+        
     }
 }
 </script>
